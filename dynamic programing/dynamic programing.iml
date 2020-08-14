@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/easy lc70 Climbing Stairs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/easy lc256 PaintHouse" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc221 Maximal Square" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc139 Word Break" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
