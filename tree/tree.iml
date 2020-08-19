@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc543 Diameter of Binary Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc938 Range Sum of BST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc101 Symmetric Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc104 Maximum Depth Binary Tree" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
