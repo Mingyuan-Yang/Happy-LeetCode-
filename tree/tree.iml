@@ -8,6 +8,12 @@
       <sourceFolder url="file://$MODULE_DIR$/easy lc938 Range Sum of BST" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/easy lc101 Symmetric Tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/easy lc104 Maximum Depth Binary Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc108 Convert Sorted Array to Binary Search Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc226 Invert Binary Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc112 Path Sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc257 Binary Tree Paths" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc107 Binary Tree Level Order Traversal ||" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc653 Two Sum IV- Input is a BST" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
