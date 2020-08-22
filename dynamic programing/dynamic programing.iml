@@ -8,6 +8,14 @@
       <sourceFolder url="file://$MODULE_DIR$/easy lc256 PaintHouse" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc221 Maximal Square" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc139 Word Break" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc322 Coin Change" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc91 Decode Ways" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc300  Longest Increasing Subsequence" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc64 Minimum Path Sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc1048 Longest String Chain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc279 Perfect Squares" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc120 Triangle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hard lc1553 Minimum Number of Days to Eat N Oranges" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -14,6 +14,9 @@
       <sourceFolder url="file://$MODULE_DIR$/easy lc257 Binary Tree Paths" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/easy lc107 Binary Tree Level Order Traversal ||" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/easy lc653 Two Sum IV- Input is a BST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/easy lc110 Balanced Binary Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc199 Binary Tree Right Side View" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc236 LCA of a Binary Tree" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

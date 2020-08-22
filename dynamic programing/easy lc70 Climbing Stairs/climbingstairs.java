@@ -23,20 +23,27 @@ public class climbingstairs {
     // solution2
     //O(n) O(1)
     public int climbStairs(int n) {
-        if (n <= 2) return n;
-        int first = 1;
-        int second = 2;
-        int third = 0;
-        for (int i = 3; i <= n; i++) {
-            third = first + second;
-            first = second;
-            second = third;
+//        if (n <= 2) return n;
+//        int first = 1;
+//        int second = 2;
+//        int third = 0;
+//        for (int i = 3; i <= n; i++) {
+//            third = first + second;
+//            first = second;
+//            second = third;
+//        }
+//        return third;
+        int count = 0;
+        int number = n / 2;
+        for (int i = number; i < n; i++) {
+            count += (2 * number) + 1;
         }
-        return third;
+        //count -= (n -number) * n;
+        return count;
     }
     public static void main(String[] args) {
         climbingstairs test = new climbingstairs();
-        int a = test.climbStairs(5);
+        int a = test.climbStairs(3);
         System.out.print(a);
     }
 }
