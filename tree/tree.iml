@@ -21,6 +21,8 @@
       <sourceFolder url="file://$MODULE_DIR$/medium lc1130 Minimum Cost Tree From Leaf Values" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc366 Find Leaves of Binary Tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc1110 Delete Nodes And Return Forest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc129 Sum Root to Leaf Numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc285 Inorder Successor in BST" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
