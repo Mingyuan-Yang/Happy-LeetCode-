@@ -9,6 +9,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/Ads Conversion Rate" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/choose course" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/find a triangle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/find some triangles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/word wrap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/word processor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/calculator1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/calculator2" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
