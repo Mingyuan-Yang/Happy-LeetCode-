@@ -1,7 +1,8 @@
 import java.util.*;
 public class course {
-    public List<List<String>> courses(List<List<String>> pair) {
-        List<List<String>> res = new ArrayList<>();
+    // problem1
+    public List<String> courses(List<List<String>> pair) {
+        List<String> res = new ArrayList<>();
         HashMap<String, HashSet<String>> map = new HashMap<>();
         List<String> student = new ArrayList<>();
         for (List<String> list : pair) {
@@ -16,18 +17,21 @@ public class course {
             for (int j = i + 1; j < student.size(); j++) {
                 String a = student.get(i);
                 String b = student.get(j);
-                List<String> list = new ArrayList<>();
-                list.add("[" + a + "," + b + "]" + ":");
+                String s = "[" + a + "," + b + "]:[";
                 for (String str : map.get(a)) {
                     if (map.get(b).contains(str)) {
-                        list.add("[" + str + "]");
+                        s += str + ",";
                     }
                 }
-                res.add(list);
+                s += "]";
+                res.add(s);
             }
         }
         return res;
     }
+
+    //problem2
+    //public
     public static void main(String[] args) {
         course test = new course();
         List<List<String>> pair = new ArrayList<>();
@@ -43,7 +47,7 @@ public class course {
         List<String> l10 = new ArrayList<String>(Arrays.asList("94", "Economics"));
         List<String> l11 = new ArrayList<String>(Arrays.asList("25", "Economics"));
         Collections.addAll(pair, l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11);
-        List<List<String>> res = test.courses(pair);
+        List<String> res = test.courses(pair);
         for (int i = 0; i < res.size(); i++) {
             System.out.println(res.get(i));
         }

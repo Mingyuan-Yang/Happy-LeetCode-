@@ -47,18 +47,28 @@ public class security {
         }
         return res;
     }
+    //problem3
+
+
+
+
+
+
+
+
     private void helper(List<List<String>> res, String key, HashMap<String, List<String>> map) {
 
         List<String> list = map.get(key);
-        Collections.sort(list, (a, b) -> a.compareTo(b));
-//        for (int i = 0; i < list.size(); i++) {
-//            System.out.println(list.get(i));
-//        }
+        List<Integer> list2 = new ArrayList<>();
+        for (int i = 0; i < list.size(); i++) {
+            list2.add(Integer.valueOf(list.get(i)));
+        }
+        Collections.sort(list2);
         int flag = 0;
         int i = 0;
         int count = 2;
-        for (; i < list.size(); i++) {
-            while (i + count < list.size() && (Integer.valueOf(list.get(i+count)) - Integer.valueOf(list.get(i)) < 60)) {
+        for (; i < list2.size(); i++) {
+            while (i + count < list2.size() && (list2.get(i+count) - list2.get(i) <= 100)) {
                 count++;
                 flag = 1;
             }
@@ -68,7 +78,7 @@ public class security {
         List<String> l = new ArrayList<>();
         Collections.addAll(l, key + ":");
         while (i < count) {
-            l.add(list.get(i++));
+            l.add(String.valueOf(list2.get(i++)));
         }
         res.add(l);
     }
