@@ -14,6 +14,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/word processor" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/calculator1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/calculator2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/valid grid1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/valid grid2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/security system" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

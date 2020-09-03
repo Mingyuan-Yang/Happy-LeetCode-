@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/easy lc496 Next Greater Element |" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc503 Next Greater Element ||" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/easy lc844 Backspace String Compare" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hard lc84 Largest Rectangle in Histogram" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

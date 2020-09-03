@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/medium lc468 ValidateIPaddress" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc556 Next Greater Element |||" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/A" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hard lc68 Text Justification" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

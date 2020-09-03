@@ -36,9 +36,6 @@ public class wordprocessor {
         int remain = maxLen - len;
         int round = remain / (index - start - 1);
         int count = remain % (index - start - 1);
-        //System.out.print(remain + " ");
-        // System.out.println(" ");
-        //System.out.print(count + " ");
         String str = "";
         while (start < index) {
             int i = round;
@@ -50,6 +47,7 @@ public class wordprocessor {
             str += s[start] + "-";
             while (i > 0) {
                 str += "-";
+                i--;
             }
             if (j > 0) {
                 str += "-";
@@ -64,7 +62,7 @@ public class wordprocessor {
         List<String> lines = new ArrayList<>();
         Collections.addAll(lines, "The day began as still as the",
                 "night abruptly lighted with", "brilliant flame" );
-        int maxLen = 20;
+        int maxLen = 24;
         List<String> res = test.processor(lines, maxLen);
         for (int i = 0; i < res.size(); i++) {
             System.out.println(res.get(i));
