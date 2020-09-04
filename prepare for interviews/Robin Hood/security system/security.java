@@ -47,15 +47,6 @@ public class security {
         }
         return res;
     }
-    //problem3
-
-
-
-
-
-
-
-
     private void helper(List<List<String>> res, String key, HashMap<String, List<String>> map) {
 
         List<String> list = map.get(key);
@@ -82,6 +73,16 @@ public class security {
         }
         res.add(l);
     }
+
+
+
+    //problem3
+
+
+
+
+
+    
     public static void main(String[] args) {
         //problem1
         security test = new security();
