@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/array/ARRAY.iml" filepath="$PROJECT_DIR$/array/ARRAY.iml" />
       <module fileurl="file://$PROJECT_DIR$/DFS/DFS.iml" filepath="$PROJECT_DIR$/DFS/DFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/OA/OA.iml" filepath="$PROJECT_DIR$/OA/OA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backtrack/backtrack.iml" filepath="$PROJECT_DIR$/backtrack/backtrack.iml" />
       <module fileurl="file://$PROJECT_DIR$/binarySearch/binarySearch.iml" filepath="$PROJECT_DIR$/binarySearch/binarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/bit/bit.iml" filepath="$PROJECT_DIR$/bit/bit.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic programing/dynamic programing.iml" filepath="$PROJECT_DIR$/dynamic programing/dynamic programing.iml" />

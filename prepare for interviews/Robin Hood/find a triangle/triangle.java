@@ -1,6 +1,7 @@
 public class triangle {
     public int[][] findTriangle(int[][] grid) {
-        int[][] res = new int[2][2];if (grid == null || grid.length == 0 || grid[0].length == 0) return res;
+        int[][] res = new int[2][2];
+        if (grid == null || grid.length == 0 || grid[0].length == 0) return res;
         int row = grid.length;
         int column = grid[0].length;
         for (int i = 0; i < row; i++) {

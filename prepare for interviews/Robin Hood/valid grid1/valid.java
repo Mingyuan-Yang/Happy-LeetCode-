@@ -1,5 +1,6 @@
 import java.util.*;
 public class valid {
+    //O(n*n)
     public boolean isValid(int[][] grid) {
         int n = grid.length;
         for (int i = 0; i < n; i++) {
