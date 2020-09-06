@@ -59,7 +59,7 @@ public class course {
         }
         for (int i = 0; i < root.size(); i++) {
             String s = root.get(i);
-            dfs(s, map, set, new ArrayList<>());
+            dfs(s, map, set, new ArrayList<>(Arrays.asList(s)));
         }
         //System.out.println(set);
         for (String s : set) {
@@ -68,7 +68,6 @@ public class course {
         return res;
     }
     private void dfs(String s, HashMap<String, List<String>> map, HashSet<String> set, List<String> list) {
-        list.add(s);
         if (!map.containsKey(s)) {
             if (list.size() % 2 == 0) {
                 set.add(list.get(list.size() / 2 - 1));
@@ -82,10 +81,10 @@ public class course {
             return;
         }
         for (String str : map.get(s)) {
+            list.add(str);
             dfs(str, map, set, list);
             list.remove(list.size() - 1);
         }
-        //list.remove(list.size() - 1);
     }
     public static void main(String[] args) {
         course test = new course();
