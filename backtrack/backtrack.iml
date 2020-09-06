@@ -8,6 +8,12 @@
       <sourceFolder url="file://$MODULE_DIR$/medium lc17 Letter Combinations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc46 Permutations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc79 Word Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hard lc212 Word Search ||" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc131 Palindrome Partitioning" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc78 Subsets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc90 Subsets ||" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc39 Combination Sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc40 Combination Sum ||" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
