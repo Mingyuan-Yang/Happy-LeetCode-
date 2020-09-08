@@ -19,6 +19,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/security system" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/meeting room" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/friend cycle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/find treatures" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/sparse vector " isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Robin Hood/ancestor" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

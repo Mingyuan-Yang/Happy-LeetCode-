@@ -74,11 +74,27 @@ public class security {
         res.add(l);
     }
 
-
-
     //problem3
 
 
+    public List<String> enter_exit3(String[][] records) {
+        PriorityQueue<String[]> pq = new PriorityQueue<>((a, b) -> Integer.valueOf(a[1]) - Integer.valueOf(b[1]));
+        for (String[] record : records) {
+            pq.offer(record);
+        }
+        for (int i = 0; i < records.length; i++) {
+            records[i] = pq.poll();
+        }
+        HashMap<String, List<String>> map = new HashMap<>();
+        for (int i = 0; i < records.length; i++) {
+            String[] str = records[i];
+            if (str[2].equals("enter")) {
+
+            }
+        }
+        List<String> res = new ArrayList<>();
+        return res;
+    }
 
 
 
@@ -106,7 +122,15 @@ public class security {
                 {"Jennifer", "1335"},{"Jennifer", "730"},{"John", "1630"}};
         List<List<String>> res2 = test.enter_exit2(list2);
         for (int j = 0; j < res2.size(); j++) {
-            System.out.println(res2.get(j));
+            //System.out.println(res2.get(j));
         }
+
+        //problem3
+        String[][] list3 = new String[][]{{"Paul","1214","enter"}, {"Paul","830","enter"}, {"Curtis","1100","enter"},
+                {"Paul","903","exit"}, {"John","908","exit"}, {"Paul","1235", "exit"}, {"Jennifer","900","exit"},
+                {"Curtis","1330","exit"}, {"John","815","enter"}, {"Jennifer","1217","enter"}, {"Curtis","745","enter"},
+                {"John","1230","enter"}, {"Jennifer","800","enter"}, {"John","1235","exit"}, {"Curtis","810","exit"},
+                {"Jennifer","1240","exit"}};
+        List<String> res3 = test.enter_exit3(list3);
     }
 }
