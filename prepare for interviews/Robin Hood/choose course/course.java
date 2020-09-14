@@ -5,7 +5,7 @@ public class course {
         List<String> res = new ArrayList<>();
         HashMap<String, HashSet<String>> map = new HashMap<>();
         List<String> student = new ArrayList<>();
-        for (List<String> list : pair) {
+        for (List<String> list : pair) { // O(n)
             if (!map.containsKey(list.get(0))) {
                 map.put(list.get(0), new HashSet<String>());
                 student.add(list.get(0));
@@ -13,7 +13,8 @@ public class course {
             map.get(list.get(0)).add(list.get(1));
 
         }
-        for (int i = 0; i < student.size() - 1; i++) {
+        System.out.print(map);
+        for (int i = 0; i < student.size() - 1; i++) {   // O(n^2)
             for (int j = i + 1; j < student.size(); j++) {
                 String a = student.get(i);
                 String b = student.get(j);
@@ -39,6 +40,15 @@ public class course {
 //    Write a function that takes a list of (source, destination) pairs, and returns the name of all of the courses that
 //    the students could be taking when they are halfway through their track of courses.
     public List<String> courses2(List<List<String>> pair) {
+        // I want to construct a directed graph without cycle according to the relationship between courses. I want to
+        //use a hashmap to store the relationship. we travel the whole input list and update the map to construct graph.
+        // in map, the key is the parent string, eg:logic, datastructure. and the value is a List of all child string
+        // I want to use a list of string to store all the root course. Firstly, I will create a list of string name possibleroot
+        // When we travel the input list string and update the map, we can add all child course in the possibleroot Arraylist
+        // In addition, I will create a list of string name root, that contains all true root courses.
+        // I will get all key string in map, and check if possibleroot list contains this key string.
+        // if no, that means this string has no parents course, so this key string is a root course.
+        // and then I will find a path from root course to leaf course using dfs algorithm, and out put the middle course.
         HashSet<String> set = new HashSet<>();
         List<String> res = new ArrayList<>();
         HashSet<String> possibleRoot = new HashSet<>();
@@ -121,7 +131,7 @@ public class course {
         Collections.addAll(pair2, ll1,ll2,ll3,ll4,ll5,ll6,ll7,ll8,ll9,ll10,ll11);
         List<String> res2 = test.courses2(pair2);
         for (int i = 0; i < res2.size(); i++) {
-            System.out.println(res2.get(i));
+            //System.out.println(res2.get(i));
         }
     }
 }

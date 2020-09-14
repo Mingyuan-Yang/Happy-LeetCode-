@@ -4,6 +4,7 @@ public class triangle {
         if (grid == null || grid.length == 0 || grid[0].length == 0) return res;
         int row = grid.length;
         int column = grid[0].length;
+        boolean flag = false;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
                 if (grid[i][j] == 0) {
@@ -19,8 +20,10 @@ public class triangle {
                     j--;
                     res[1][0] = i;
                     res[1][1] = j;
+                    flag = true;
                     break;
                 }
+                if (flag == true) break;
             }
         }
         return res;

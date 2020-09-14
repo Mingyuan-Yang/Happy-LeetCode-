@@ -28,7 +28,6 @@ public class meeting {
         List<Integer> l1 = new ArrayList<>();
         Collections.addAll(l1, 0, start[0]);
         res.add(l1);
-        int i = 0;
         for (int j = 1; j < end.length; j++) {
             if (start[j] > end[j - 1]) {
                 List<Integer> list = new ArrayList<>();

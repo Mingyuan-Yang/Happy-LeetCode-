@@ -38,7 +38,7 @@ public class wordwrap {
         int maxLen = 12;
         List<String> res = test.word(word, maxLen);
         for (int i = 0; i < res.size(); i++) {
-            System.out.println(res.get(i));
+            System.out.print(res.get(i) + "|");
         }
     }
 }
