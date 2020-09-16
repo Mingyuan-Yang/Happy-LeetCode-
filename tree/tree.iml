@@ -23,6 +23,8 @@
       <sourceFolder url="file://$MODULE_DIR$/medium lc1110 Delete Nodes And Return Forest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc129 Sum Root to Leaf Numbers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc285 Inorder Successor in BST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/medium lc337 House Robber3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hard lc99 Recover Binary Search Tree" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
