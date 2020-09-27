@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/medium lc93 Restore IP Addresses" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc526 Beautiful Arrangement" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/medium lc47 Permutations||" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hard lc51 N-Queens" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

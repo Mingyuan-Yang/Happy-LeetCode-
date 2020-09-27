@@ -22,6 +22,18 @@
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/find treatures" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/sparse vector " isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Robin Hood/ancestor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/9" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon/10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Twilio/Vanity Number Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Twilio/SMS Splitting" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
