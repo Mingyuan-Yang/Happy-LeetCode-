@@ -25,10 +25,10 @@ public class solution {
         dfs(c, i, j - 1, rows, columns, visited, grid);
     }
     public static void main(String[] args) {
-        solution test = new solution();
+        concatenated test = new concatenated();
         int rows = 4;
         List<String> grid = new ArrayList<>(Arrays.asList("aabce", "aaacc", "baace", "aaccb"));
-        int res = test.find(rows, grid);
-        System.out.print(res);
+        //int res = test.find(rows, grid);
+        //System.out.print(res);
     }
 }
