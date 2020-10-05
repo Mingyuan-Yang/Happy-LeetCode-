@@ -38,6 +38,30 @@
       <sourceFolder url="file://$MODULE_DIR$/MS/1. 146 LRU" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MS/1. 1156 Swap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MS/1. 155 Min Stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/2.2 Add Two Numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/2.5 Longest Palindromic Substring" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/2.53 Maximum Subarray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/2.15 3Sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/2.23 Merge k Sorted Lists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/2.273 Integer to English Words" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/2.85 Maximal Rectangle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/2.46 Permutations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/2.79 Word Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.297 Serialize and Deserialize Binary Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.17 Letter Combination of Phone Number" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.25 Reverse Nodes in k-group" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.295 Find Median from Data Stream" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.49 Group Anagrams" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.124 Binary Tree Maximum Path Sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.767 Reorganize String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.105 Construct Binary Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.445 Add Two Numbers2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.34 Find First and Last" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.8 String to Integer(atoi)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.41 First Missing Positive" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.98 Validate BST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.240 Search 2D Matrix 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MS/3.236 LCA of a Binary Tree" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
