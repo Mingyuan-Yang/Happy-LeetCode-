@@ -29,6 +29,7 @@ public class concatenated {
         }
     }
     private boolean isValid(String check, HashSet<Character> set) {
+        // inorder to avoid the invalid input string, like "uu"
         HashSet<Character> set2 = new HashSet<>();
         for (int i = 0; i < check.length(); i++) {
             if (set.contains(check.charAt(i)) || set2.contains(check.charAt(i))) return false;
